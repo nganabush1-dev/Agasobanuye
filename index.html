@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="rw">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agasobanuye</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">Agasobanuye</div>
+  <nav><a href="#home">Ahabanza</a><a href="#films">Films</a><a href="#about">Abo turi bo</a></nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div>
+    <p class="tag">WELCOME TO AGASOBANUYE</p>
+    <h1>Films zisobanuwe mu Kinyarwanda</h1>
+    <p>Reba kandi ukuremo films zawe mu buryo bworoshye.</p>
+    <a class="btn" href="#films">Reba Films</a>
+  </div>
+</section>
+
+<section id="films" class="section">
+  <div class="section-head">
+    <h2>Films zacu</h2>
+    <input id="search" type="search" placeholder="Shaka film...">
+  </div>
+  <div id="filmList" class="grid">
+    <article class="card">
+      <div class="poster">FILM 01</div>
+      <div class="card-body">
+        <h3>Film ya mbere</h3>
+        <p>Hano uzashyira ibisobanuro bya film yawe.</p>
+        <div class="actions">
+          <a class="btn small" href="#" onclick="alert('Shyiramo video URL ya film hano.');return false;">▶ Reba</a>
+          <a class="btn small outline" href="#" download onclick="alert('Shyiramo download link ya film hano.');return false;">⬇ Download</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <h2>Agasobanuye</h2>
+  <p>Urubuga rwa films zisobanuwe mu Kinyarwanda. Ubu ni prototype; ushobora kongeramo films zawe, posters, videos na download links.</p>
+</section>
+</main>
+
+<footer>© 2026 Agasobanuye — All rights reserved.</footer>
+<script src="script.js"></script>
+</body>
+</html>
